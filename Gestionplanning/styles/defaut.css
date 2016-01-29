@@ -1,0 +1,178 @@
+body
+{
+ margin: auto;
+ margin-top: 20px;
+ text-align: center;
+ font-family: verdana, arial, sans-serif;
+ font-size: 12px;
+}
+
+/* Liens */
+a
+{
+ text-decoration: none;
+ color: #000000;
+}
+
+a:hover
+{
+ font-weight: bold;
+}
+
+a.tab_gestion
+{
+ text-decoration: underline;
+}
+/* Fin des liens */
+
+/* Tableau de vue de salle */
+table.voir_salle
+{
+ margin: auto;
+ border-collapse: collapse;
+ border: 1px #000000 solid
+}
+
+table.voir_salle td
+{
+ border: 1px #000000 dashed;
+ background-color: #FFFFCC;
+ height: 31px;
+ padding-left: 3px;
+ padding-right: 3px;
+}
+
+table.voir_salle td.haut_menu
+{
+ background-color: #FFCC00;
+}
+/* Fin du tableau de vue de salle */
+
+option.en_cours
+{
+ color: red;
+ text-decoration: underline;
+}
+
+/* Tableau Jour */
+table.jour td.annee
+{
+	height: 92px;
+	background-color: #FFFFCC; 
+	border: 1px #000000 dashed
+}
+
+table.jour td.jour
+{
+	width: 60px;
+	border: 1px #000000 dashed;
+	background-color: #FFFFCC;
+	height: 186px;
+	margin-top: 186px;
+	text-align: center;
+}
+
+table.jour td.matin
+{
+	background-color: #CADBFF;
+	width: 45px;
+	height: 90px;
+	border: 1px #000000 dashed;
+}
+
+table.jour td.aprem
+{
+	background-color: #A6B8FF;
+	width: 20px;
+	border: 1px #000000 dashed;
+}
+/* Fin du tableau Jour */
+
+/* Tableau de GESTION */
+table.tab_gestion
+{
+ border-collapse: collapse;
+ border: 1px #000000 solid;
+ text-align: center;
+}
+
+table.tab_gestion td
+{
+ border: 1px #000000 dashed;
+ background-color: #FFFFCC
+}
+
+table.tab_gestion td.haut_menu
+{
+ height: 40px;
+ background-color: #FFCC00
+}
+/* Fin du tableau GESTION */
+
+table.conteneur
+{
+ border: 1px #000000 solid;
+ text-align: center;
+ margin: auto;
+ background-color: #FFCC00
+}
+
+/* Toutes les DIV */
+div
+{
+ height: 90px;
+ border: 1px dashed;
+ margin-top: 2px;
+ margin-right: 2px;
+ width: 140px;
+ background-color: #FFFFCC;
+}
+
+div.matin
+{
+ background-color: #CADBFF;
+ height: 90px;
+ width: 45px;
+ margin-left: 66px;
+}
+
+div.aprem
+{
+ background-color: #A6B8FF;
+ height: 90px;
+ width: 45px;
+ margin-left: 66px;
+}
+
+div.jour
+{
+ height: 184px;
+ width: 60px;
+ float: left;
+}
+
+.centre_jour_1
+{
+ position:relative;
+ top: 45%;
+}
+
+.centre_jour_2
+{
+ position:relative;
+ top: 38%;
+}
+
+div a
+{
+ display: block;
+ width: 100%; 
+ height: 100%
+}
+
+div a.libre:hover
+{
+ background-color: #B8FFB8;
+ text-align: center;
+}
+/* Fin des DIV */

@@ -1,0 +1,5 @@
+AuthType Basic
+		AuthName 'Logs des connections' 
+		AuthUserFile c:/projet/users/passwords 
+		AuthGroupFile c:/projet/users/groups 
+		Require group admins

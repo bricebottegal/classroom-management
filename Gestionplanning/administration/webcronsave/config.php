@@ -1,0 +1,15 @@
+<?php
+$_CONFIG["action"]='saveconfig';
+$_CONFIG["SERVER"]='localhost';
+$_CONFIG["USER"]='vincent';
+$_CONFIG["PASS"]='margot02';
+$_CONFIG["BASE"]='gestion_planning';
+$_CONFIG["EMAIL"]='vincent.loisel@univ-lehavre.fr';
+$_CONFIG["LOGIN_HTTP"]='vincent';
+$_CONFIG["PASS_HTTP"]='margot02';
+$_CONFIG["IDENTIF"]='basic';
+$_CONFIG["MONTH"]='1';
+$_CONFIG["WEEK"]='1';
+$_CONFIG["YESTERDAY"]='1';
+$_CONFIG["TODAY"]='1';
+$_CONFIG["submit"]='Valider';
