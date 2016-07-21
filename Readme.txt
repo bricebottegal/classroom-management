@@ -1,4 +1,4 @@
-Creator: Brice Bottegal (brice@bottegal.fr,@bricebottegal)
+Author: Brice Bottegal (brice@bottegal.fr,@bricebottegal)
 Date: 2011
 Context: creation of a classroom management solution for the University of Le Havre (France)
 License: MIT Licence
